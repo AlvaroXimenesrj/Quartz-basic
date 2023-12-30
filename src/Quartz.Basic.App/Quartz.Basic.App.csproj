@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>    
+    <UserSecretsId>dotnet-Quartz.Basic.App-fd20b971-717c-42ae-9192-fbdcc0c7e5a3</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
+	  <PackageReference Include="Quartz.Extensions.DependencyInjection" Version="3.8.0" />
+	  <PackageReference Include="Quartz" Version="3.8.0" />
+	  <PackageReference Include="Quartz.Extensions.Hosting" Version="3.8.0" />
+  </ItemGroup>
+</Project>
